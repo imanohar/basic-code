@@ -1,0 +1,2 @@
+# basic-code
+Some exercises.
