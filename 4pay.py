@@ -1,4 +1,4 @@
-h=raw_input('Input work hours:\n')
+h=raw_input('Input work hours:\n') #I can't seem to write these prompts into the function def itself
 r=raw_input('Input hourly rate:\n')
 
 def computepay(h,r):
@@ -10,7 +10,7 @@ def computepay(h,r):
     print p
     again=raw_input("Would you like to make another calculation? y/n\n")
     if again=="y":
-        h=raw_input('Input work hours:\n')
+        h=raw_input('Input work hours:\n') #See it crops up here again
         r=raw_input('Input hourly rate:\n')
         computepay(h,r)
     else:
@@ -22,7 +22,7 @@ except:
     print "Error, please input valid numerals."
     again=raw_input("Would you like to try again?y/n\n")
     if again=="y":
-        h=raw_input('Input work hours:\n')
+        h=raw_input('Input work hours:\n') #And again!
         r=raw_input('Input hourly rate:\n')
         computepay(h,r)
     else:
